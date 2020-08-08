@@ -24,7 +24,7 @@ void main() async {
     ),
   );
   final FirebaseStorage storage = FirebaseStorage(
-      app: app, storageBucket: 'gs://cloudstorage-5ca44.appspot.com');
+      app: app, storageBucket: 'gs://cloudstorage-5ca44.appspot.com/');
   runApp(MyApp(storage: storage));
 
   //gs://cloudstorage-5ca44.appspot.com/
