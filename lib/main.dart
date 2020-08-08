@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:firebase_core/firebase_core.dart';   //firebase libreria 
 import 'package:firebase_storage/firebase_storage.dart';  //Storage Libreria
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:http/http.dart' as http;  //consulta por url a las imagenes de descarga
 import 'package:uuid/uuid.dart'; // uuid libreria 
 
 const String kTestString = 'Hello world!';
