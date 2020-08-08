@@ -16,8 +16,8 @@ void main() async {
     name: 'CloudStorage',
     options: FirebaseOptions(
       googleAppID: (Platform.isIOS || Platform.isMacOS)
-          ? '1:229418040616:ios:31a903e0108f2660f0a41d'
-          : '1:229418040616:android:c82b6c9ddef89a89f0a41d',
+          ? '1:229418040616:ios:31a903e0108f2660f0a41d'  //ios googleappid
+          : '1:229418040616:android:c82b6c9ddef89a89f0a41d',  //androd googleappid
       gcmSenderID: '229418040616',
       apiKey: 'AIzaSyD3GWnw7qzbGjyiiEY8GbDWrobo5m5KAv0',
       projectID: 'cloudstorage-5ca44',
